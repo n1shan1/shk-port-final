@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from "../constants";
+import { HERO_CONTENT } from "../constants/const";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({

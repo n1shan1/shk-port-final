@@ -1,10 +1,10 @@
-import { CONTACT } from "../constants";
+import { CONTACT } from "../constants/index";
 import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
     <div className="border-b border-neutral-900 pb-20">
-      <motion.h2 
+      <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
@@ -13,8 +13,7 @@ const Contact = () => {
         Get in Touch
       </motion.h2>
       <div className="text-center tracking-tighter">
-        <motion.a 
-          
+        <motion.a
           rel="noopener noreferrer"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
@@ -23,7 +22,7 @@ const Contact = () => {
         >
           {CONTACT.address}
         </motion.a>
-        <motion.a 
+        <motion.a
           href={`tel:${CONTACT.phoneNo}`}
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
@@ -32,7 +31,7 @@ const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.a>
-        <motion.a 
+        <motion.a
           href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfrKhxGQwkgGdkFFRrnDPBQvPHmkmBDlhMXLRfRXJGhPXxMbkvtqZhwLJzrRrSHqWnmrbq"
           target="_blank"
           rel="noopener noreferrer"
