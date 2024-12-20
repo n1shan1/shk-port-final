@@ -7,7 +7,12 @@ import {
 } from "@material-tailwind/react";
 import { Bars2Icon } from "@heroicons/react/24/solid";
 import logo from "../assets/SHKlogo.png";
-import { FaLinkedin, FaGithub, FaInstagram, FaFileDownload } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaFileDownload,
+} from "react-icons/fa";
 import { motion, useScroll } from "framer-motion";
 
 const navListMenuItems = [
@@ -49,8 +54,7 @@ function MobileNavListMenu() {
       ))}
       <div className="flex justify-center gap-4 text-2xl">
         <a
-          href="src/assets/Sheik Mohamed's Resume.pdf"
-          target="_blank"
+          href="https://drive.google.com/file/d/1BBEojxKqeN_a9CzquV3hjeb6Sx9kef9o/view"
           rel="noopener noreferrer"
           className="group relative text-yellow-200 hover:text-yellow-400"
         >

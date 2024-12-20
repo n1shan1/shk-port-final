@@ -1,5 +1,10 @@
 import logo from "../assets/SHKlogo.png";
-import { FaLinkedin, FaGithub, FaInstagram, FaFileDownload } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaFileDownload,
+} from "react-icons/fa";
 import { motion, useScroll } from "framer-motion";
 
 const Navbar = () => {
@@ -9,24 +14,26 @@ const Navbar = () => {
     <nav className="relative mb-20 flex items-center justify-between py-6">
       <motion.div
         className="fixed top-0 left-0 right-0 h-1 origin-left bg-cyan-500"
-        style={{ scaleX: scrollYProgress }} />
-      
+        style={{ scaleX: scrollYProgress }}
+      />
+
       <div
         className="flex flex-shrink-0 items-center cursor-pointer"
-        onClick={() => window.location.reload()}>
+        onClick={() => window.location.reload()}
+      >
         <img className="mx-2 w-16" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-
-      <a
-      href="src/assets/Sheik Mohamed's Resume.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group relative text-yellow-200 hover:text-yellow-400" >
-      <FaFileDownload />
-      <span className="absolute top-8 left-1/2 -translate-x-1/2 translate-y-0 opacity-0 rounded bg-gray-800 p-2 text-sm text-white transition-all duration-300 group-hover:translate-y-2 group-hover:opacity-100">
-    Resume
-        </span>
+        <a
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative text-yellow-200 hover:text-yellow-400"
+        >
+          <FaFileDownload />
+          <span className="absolute top-8 left-1/2 -translate-x-1/2 translate-y-0 opacity-0 rounded bg-gray-800 p-2 text-sm text-white transition-all duration-300 group-hover:translate-y-2 group-hover:opacity-100">
+            Resume
+          </span>
         </a>
 
         <a
@@ -59,4 +66,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
