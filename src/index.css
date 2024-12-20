@@ -17,7 +17,7 @@
 
 }
 
-/* Hide the default cursor */
+
 body {
   cursor: none;
 }
@@ -26,10 +26,10 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background-color: rgba(0, 255, 255, 0.5);
-  border-radius: 50%;
+  border-radius: 100%;
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: transform 0.1s ease, width 0.2s ease, height 0.2s ease;
@@ -69,7 +69,7 @@ body:hover .custom-pointer {
   white-space: nowrap;
   display: flex;
   align-items: center;
-  height: 100px; /* Adjust as necessary */
+  height: 100px;
 }
 
 .scroller {
@@ -78,8 +78,8 @@ body:hover .custom-pointer {
 
 .scroller span {
   display: inline-block;
-  padding-right: 2rem; /* Adjust spacing as necessary */
-  font-size: 2rem; /* Adjust font size as necessary */
+  padding-right:2rem; 
+  font-size: 2rem;
 }
 
 

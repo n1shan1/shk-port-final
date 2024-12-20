@@ -18,13 +18,16 @@ const App = () => {
       <CustomPointer />
 
       <div className="relative container mx-auto px-8">
-        <Navbar/>
+
+        <ComplexNavbar/>
+        
         <Hero />
         <About />
         <Technologies />
         <Intern />
         <Projects />
         <Contact />
+
         
       </div>
     </div>

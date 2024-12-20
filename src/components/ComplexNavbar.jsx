@@ -11,9 +11,9 @@ import { FaLinkedin, FaGithub, FaInstagram, FaFileDownload } from "react-icons/f
 import { motion, useScroll } from "framer-motion";
 
 const navListMenuItems = [
-  { title: "Home", href: "src/components/About.jsx" },
+  { title: "Home", href: "#home" },
   { title: "About Me", href: "#about" },
-  { title: "Tech", href: "src/components/Technologies.jsx" },
+  { title: "Tech", href: "#Tech" },
   { title: "Internship", href: "#internship" },
   { title: "Projects", href: "#projects" },
   { title: "Contact Me", href: "#contact" },

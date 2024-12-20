@@ -8,7 +8,8 @@ import { RiSvelteLine } from "react-icons/ri";
 import { SiAmazondynamodb } from "react-icons/si";
 import { SiAdobexd } from "react-icons/si";
 import { motion } from "framer-motion"
-
+import { FaDocker } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 
 const iconVariants = (duration) => ({
   initial: {y: -10},
@@ -73,7 +74,7 @@ const Technologies = () => {
        initial="initial"
        animate="animate"      
        className="rounded-2xl border-4 border-neutral-800 p-4">
-       <TbBrandThreejs className="text-7xl  text-white hover:text-gray-400"/>
+       <RiNextjsFill className="text-7xl  text-gray hover:text-gray-400"/>
        </motion.div>
       </a>
 
@@ -83,7 +84,7 @@ const Technologies = () => {
        initial="initial"
        animate="animate"
        className="rounded-2xl border-4 border-neutral-800 p-4">
-       <SiAmazondynamodb className="text-7xl text-blue-700 hover:text-blue-800 "/>
+       <FaDocker className="text-7xl text-blue-700 hover:text-blue-800 "/>
        </motion.div>
        </a>
 
@@ -106,6 +107,8 @@ const Technologies = () => {
        <FaFigma className="text-7xl text-orange-800 hover:text-orange-600 "/>
        </motion.div>
        </a>
+
+      
 
       </motion.div>
     </div>

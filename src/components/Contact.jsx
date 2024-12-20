@@ -14,8 +14,7 @@ const Contact = () => {
       </motion.h2>
       <div className="text-center tracking-tighter">
         <motion.a 
-          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CONTACT.address)}`}
-          target="_blank"
+          
           rel="noopener noreferrer"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
